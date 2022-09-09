@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="calculadora.js"></script>
+    <title>Calculadora</title>
+    <meta charset="utf-8">
+  </head>
+  <p>Calculadora do Patrick</p>
+  <body>
+    <div class="inputbox">
+        <label>Primeiro Numero</label>
+        <input name="primeiroNumero" placeholder="Digite aqui" id="numero1" class="inputUser">
+        <label for="numero1" class="labelInput"></label>
+    </div>
+    <div class="inputbox">
+        <label>Segundo numero</label>
+        <input  name="segundoNumero" placeholder="Digite aqui" id="numero2" class="InputUser">
+        <label for="numero2" class="labelInput"></label>
+    </div>
+    <div class="inputbox">
+        <label>Operacão</label>
+        <input type="button" onclick="Soma()" value="adição" name="adicao" id="adicao">
+        <input type="button" onclick="subtracao()" value="subtração" name="subtracao" id="subtracao">
+        <input type="button" onclick="divisao()" value="divisão" name="divisao" id="divisao">
+    
+    </div>
+    <br>
+    <label>O Resultado é:</label>
+    <div id="Resultado" class="inputbox">
+       
+        <label>O Resultado é:</label>
+    
+       
+        <resultado></resultado>
+         
+
+    </div>
+    
+    
+  </body>
+</html>
